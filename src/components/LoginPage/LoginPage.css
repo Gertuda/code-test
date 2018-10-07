@@ -1,0 +1,31 @@
+.login-page {
+    background-size: cover; 
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .login-page-box {
+    padding: 10px 10px 10px;
+    border-radius: 5px;
+    background-color: white;
+    width: 400px;
+    height: 300px;
+}
+
+.login-page-box .btn-group {
+    align-self: center;
+}
+
+.login-page-box form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-page-box .login-option button {
+    min-width: 85px;
+}

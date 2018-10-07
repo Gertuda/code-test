@@ -1,0 +1,70 @@
+.todolist-main {
+    font-family: Open Sans;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.todolist-main .todolist {
+    height: 1080px;
+    width: 1000px;
+    position: relative;
+}
+
+.todolist-main .todolist-menu {
+    flex-grow: 1;
+    padding: 20px 30px 20px;
+}
+
+.todolist .todo-item {
+    max-width: 200px;
+    position: absolute;
+    right: 1px;
+    background-color: rgba(226, 236, 245, 0.9);
+    border-left: 1px solid rgba(110, 158, 207, 0.9);;
+    left: 50px;
+    cursor: pointer;
+}
+
+.todo-item .todo-body {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: inherit;
+}
+
+.todo-item .dlt-btn {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+.todolist .todo-hours {
+   font-weight: 200; 
+   height: 60px;
+   color: #8d8a8a
+}
+
+.todolist .todo-hours.big {
+    border-top: 1px solid black;
+    font-size: large;
+}
+
+.todolist .todo-hours.small {
+    font-size: small;
+}
+
+.todolist-menu .todolist-form {
+    margin-bottom: 50px;
+}
+
+.todolist-menu .todolist-textarea {
+    width: 100%;
+    height: 300px;
+}
+
+.todolist-menu .todolist-logout {
+    margin-bottom: 20px;
+}
