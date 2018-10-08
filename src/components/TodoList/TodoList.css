@@ -3,10 +3,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 .todolist-main .todolist {
-    height: 1080px;
+    height: 1120px;
     width: 1000px;
     position: relative;
 }
